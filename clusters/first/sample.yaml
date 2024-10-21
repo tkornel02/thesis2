@@ -18,7 +18,7 @@ data:
       <title>Welcome to Nginx</title>
     </head>
     <body>
-      <h1>Hello from Nginx served via ConfigMap2 to demonstrate gitops!</h1>
+      <h1>Hello from Nginx served via ConfigMap2 to demonstrate gitops the second time!</h1>
     </body>
     </html>
 
