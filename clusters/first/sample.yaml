@@ -50,18 +50,3 @@ spec:
       - name: nginx-index-html
         configMap:
           name: nginx-index-html-configmap
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: nginx-service
-  namespace: nginx-system
-spec:
-  type: ClusterIP
-  selector:
-    app: nginx
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
